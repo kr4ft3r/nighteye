@@ -22,6 +22,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   chrome.tabs.executeScript(tab.id, {
     code: nighteye_activate_code
   }, function(results) { // results[0] is true if style was missing and added, false if was found and removed
+      if(typeof results === 'undefined')  return; // Probably a chrome settings page
       var activate = results[0]; 
       if(!activate) {
         // Deactivate on this tab

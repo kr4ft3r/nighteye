@@ -3,7 +3,7 @@
 
   "name": "Nighteye | Simple Dark Browsing",
   "description": "Rest your eyes. Forces dark background and green terminal-like text on all web pages in simplest way possible.",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "icons": {
     "48": "icon48.png",
