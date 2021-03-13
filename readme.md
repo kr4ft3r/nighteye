@@ -4,6 +4,8 @@
 
 > "When darkness falls, beauty is lit from within."
 
+![nighteye example screen github](https://i.imgur.com/qA887oQ.png)
+
 When active, forces black background with green terminal-like text, stripping almost all decorative elements. Recommended only for serious work such as looking up coding resources.
 
 **This is not meant to be a silver bullet solution that will work well for all pages.** May make some pages unreadable. But is very easy to switch on/off for a current page.
