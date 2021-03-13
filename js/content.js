@@ -10,7 +10,7 @@ chrome.storage.local.get(['darken_active'], function (result) {
       // Activate
       var body = document.body;
       var style = document.createElement('link');
-      style.href = chrome.extension.getURL('nighteye.css');
+      style.href = chrome.extension.getURL('css/nighteye.css');
       style.type = 'text/css';
       style.rel = 'stylesheet';
       style.id = '__nighteye_css';

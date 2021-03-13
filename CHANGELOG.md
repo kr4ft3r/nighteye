@@ -2,7 +2,17 @@
 Changes to Nighteye repo or published releases.
 
 ## [Unreleased]
-Latest changes in repo, unpublished on Chrome Web Store.
+Latest changes in repo, and releases not yet published on Chrome Web Store.
+
+## [0.2.2] - 2021-03-13
+
+### Changed
+
+- Implemented a folder structure for better code overview. Since this intends to stay a simple project, the folder structure will be one folder for each file type, all siblings in root folder.
+
+### Added
+
+- Folders: css, img, js - `css` will likely hold optional custom overrides in future versions, `img` holds png icons, `js` holds all the source with application logic.
 
 ## [0.2.0] - 2021-03-13
 

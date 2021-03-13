@@ -1,7 +1,7 @@
 
 var nighteye_activate_code = "if(!document.getElementById('__nighteye_css')) { var body = document.body;\
       var body = document.body; var style = document.createElement('link');\
-      style.href = chrome.extension.getURL('nighteye.css');\
+      style.href = chrome.extension.getURL('css/nighteye.css');\
       style.type = 'text/css'; style.rel = 'stylesheet'; style.id = '__nighteye_css';\
       body.appendChild(style);\
   body.appendChild(style); var ret=true; ret} else { var ret=false; ret};"
