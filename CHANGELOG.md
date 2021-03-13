@@ -13,6 +13,7 @@ Latest changes in repo, unpublished on Chrome Web Store.
 ### Added
 
 - Added nighteye.css file for easy editing, and its resource permission in manifest
+- Fixes for ugly white backgrounds on github pages
 
 ## [Released]
 Published or pending Chrome Web Store releases.

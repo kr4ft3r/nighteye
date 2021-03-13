@@ -2,8 +2,9 @@
 
 /* Website specific fixes */
 
-/* Github: files and commit messages */
+/* Github: files and commit messages, removed ugly white glitches */
 .Link--primary { color: #49b579!important; } .Link--secondary { color: #92a9c3!important; }
+.color-bg-secondary { background-color: #000 !important; } .bg-gray-light { background-color: #000 !important; } .color-bg-primary { background-color: #000 !important; }
 /* Youtube: video control window */
 .ytp-gradient-bottom {background-color:#ccc0 !important;} .ytp-play-progress {background-color: #ccc !important;} .ytp-preview {display:none;}
 /* Medium: sidebar element obstructing view */
