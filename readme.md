@@ -10,9 +10,9 @@ When active, forces black background with green terminal-like text, stripping al
 
 **This is not meant to be a silver bullet solution that will work well for all pages.** May make some pages unreadable. But is very easy to switch on/off for a current page.
 
-I have made this for my own use, as the existing darkener extensions that I know of try to achieve too much, or too little, or are not dark enough, and the one that I liked turned out to be spying on its users. The functionality is good enough to browse through text, images and code on most web pages. It does not work well for activities that are probably a waste of time, such as scrolling through Facebook videos and images. There are additional CSS fixes for few potentially useful websites like GitHub, YouTube and Medium to improve readability. If there is a useful website that doesn't work well with this plugin let me know and I will add fixes in next update. Or just branch and use as basis to make your own version.
+I have made this for my own use, as the existing darkener extensions that I know of try to achieve too much, or too little, or are not dark enough, and the one that I liked turned out to be spying on its users. The functionality is good enough to browse through text, images and code on most web pages. It does not work well for activities that are probably a waste of time, such as scrolling through Facebook videos and images. There are additional CSS fixes for few potentially useful websites like GitHub, YouTube and Medium to improve readability. If there is a useful website that doesn't work well with this plugin let me know and I will add fixes in next update. Or just fork and use as basis to make your own version.
 
-One additional benefit for Windows 10 "high contrast black mode" users: web pages that fail to optimize for it will become fully readable when this extension is activated.
+One additional benefit for Windows 10 "high contrast black mode" users who are not using experimental "Force colors" feature: web pages that fail to optimize for high contrast black (dark text on dark background) will become fully readable when this extension is activated.
 
 &nbsp;  
 
@@ -39,7 +39,9 @@ While the above switch button logic is not perfect for all situations, I find it
 
 #### How to install
 
-~~Get it from Chrome Web Store~~ (pending review), or install from the source.
+~~Get it from Chrome Web Store~~ (pending review), or download a release, or install from the source.
+
+To download a release: download the latest archive from the Releases section (menu on the right), unzip, drag&drop the main folder into the extensions window and enable the extension.
 
 To install from source: clone the repo, navigate to `chrome://extensions/` , drag&drop the cloned folder into the extensions window and enable the extension.
 
