@@ -10,7 +10,7 @@ When active, forces black background with green terminal-like text, stripping al
 
 I have made this for my own use, as the existing darkener extensions that I know of try to achieve too much, or too little, or are not dark enough, and the one that I liked turned out to be spying on its users. The functionality is good enough to browse through text, images and code on most web pages. It does not work well for activities that are probably a waste of time, such as scrolling through Facebook videos and images. There are additional CSS fixes for few potentially useful websites like GitHub, YouTube and Medium to improve readability. If there is a useful website that doesn't work well with this plugin let me know and I will add fixes in next update. Or just branch and use as basis to make your own version.
 
-One additional benefit for Windows 10 "high contrast black mode" users: web pages that fail to optimize for it will become fully readable with this extension is activated.
+One additional benefit for Windows 10 "high contrast black mode" users: web pages that fail to optimize for it will become fully readable when this extension is activated.
 
 &nbsp;  
 
@@ -19,7 +19,7 @@ One additional benefit for Windows 10 "high contrast black mode" users: web page
 - Simplicity of codebase, less than two screens of code in total. A novice programmer can easily skim through the code and confirm that the extension is not a spy tool.
 - One button interface to activate and deactivate the plugin, the outcome of which depends on the context (more about that in the point below).
 - Freedom of choice for those who like to multitab, as switching on will darken the currently open tab and all the pages loaded afterwards, switching off will act in the same way, meaning the pages in other tabs will keep their current state.
-- Simple completely black background with calming green text similar to terminal displays.
+- Simple pitch black background, with calming green text similar to old school terminal displays.
 
 #### Switch button logic
 
