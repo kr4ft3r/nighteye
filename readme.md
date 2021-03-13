@@ -16,7 +16,7 @@ One additional benefit for Windows 10 "high contrast black mode" users: web page
 
 #### Nighteye design principles
 
-- Simplicity of codebase, less than two screens of code in total. A novice programmer can easily skim through the code and confirm that the extension is not a spy tool.
+- Simplicity of codebase, less than one screens of JS code in total. A novice programmer can easily skim through the code and confirm that the extension is not a spy tool.
 - One button interface to activate and deactivate the plugin, the outcome of which depends on the context (more about that in the point below).
 - Freedom of choice for those who like to multitab, as switching on will darken the currently open tab and all the pages loaded afterwards, switching off will act in the same way, meaning the pages in other tabs will keep their current state.
 - Simple pitch black background, with calming green text similar to old school terminal displays.
@@ -37,7 +37,8 @@ While the above switch button logic is not perfect for all situations, I find it
 
 #### How to install
 
-Get it from Chrome Web Store, or install from this source.
+~~Get it from Chrome Web Store~~ (pending review), or install from the source.
+
 To install from source: clone the repo, navigate to `chrome://extensions/` , drag&drop the cloned folder into the extensions window and enable the extension.
 
 #### Advatages over Chrome's experimental high contrast mode
