@@ -4,6 +4,18 @@ Changes to Nighteye repo or published releases.
 ## [Unreleased]
 Latest changes in repo, and releases not yet published on Chrome Web Store.
 
+## [0.3.0] - 2021-03-13
+
+### Changed
+
+- Refactored a bit to improve on DRY principle, code related to injection has moved to the new Nighteye__ext class
+
+- Content script will now async wait for nighteye.js to load before doing its stuff
+
+### Added
+
+- Added js/nighteye.js file to hold extension's class
+
 ## [0.2.2] - 2021-03-13
 
 ### Changed
