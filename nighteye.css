@@ -1,0 +1,10 @@
+* { background-image: none !important; background-color: #000 !important; color: #5f9655 !important;}
+
+/* Website specific fixes */
+
+/* Github: files and commit messages */
+.Link--primary { color: #49b579!important; } .Link--secondary { color: #92a9c3!important; }
+/* Youtube: video control window */
+.ytp-gradient-bottom {background-color:#ccc0 !important;} .ytp-play-progress {background-color: #ccc !important;} .ytp-preview {display:none;}
+/* Medium: sidebar element obstructing view */
+article+div{background-color:#ccc0 !important;} article+div>div{background-color:#ccc0 !important;} article+div>div>div{background-color:#ccc0 !important;}

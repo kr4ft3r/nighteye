@@ -1,18 +1,9 @@
 
 var nighteye_activate_code = "if(!document.getElementById('__nighteye_css')) { var body = document.body;\
-  var style = document.createElement('style');\
-  var rules = '* { background-image: none !important; background-color: #000 !important; color: #5f9655 !important;}';\
-  rules += ' .Link--primary { color: #49b579!important; } .Link--secondary { color: #92a9c3!important; }';\
-  rules += ' .ytp-gradient-bottom {background-color:#ccc0 !important;} .ytp-play-progress {background-color: #ccc !important;} .ytp-preview {display:none;}';\
-  rules += ' article+div{background-color:#ccc0 !important;} article+div>div{background-color:#ccc0 !important;} article+div>div>div{background-color:#ccc0 !important;}';\
-  var CSSRules = document.createTextNode('* { background-image: none !important; background-color: #000 !important; color: #5f9655 !important;}');\
-  style.type = 'text/css';\
-  style.id = '__nighteye_css';\
-  if(style.styleSheet) {\
-      style.styleSheet.cssText = CSSRules.nodeValue;\
-  } else { \
-      style.appendChild(CSSRules);\
-  }\
+      var body = document.body; var style = document.createElement('link');\
+      style.href = chrome.extension.getURL('nighteye.css');\
+      style.type = 'text/css'; style.rel = 'stylesheet'; style.id = '__nighteye_css';\
+      body.appendChild(style);\
   body.appendChild(style); var ret=true; ret} else { var ret=false; ret};"
 
 var nighteye_deactivate_code = "document.body.removeChild(document.getElementById('__nighteye_css'));";
